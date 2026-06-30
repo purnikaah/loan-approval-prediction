@@ -11,7 +11,6 @@ from src.evaluate_models import evaluate_model
 X, y, df = load_and_preprocess_data(
     "data/dataset.csv"
 )
-
 X_train, X_test, y_train, y_test = train_test_split(
     X,
     y,
